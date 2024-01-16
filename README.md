@@ -1,3 +1,4 @@
-Nexus Info Projects -
+# Nexus Info Projects 
 1. Simple Chatbot
-2  Admission Chatbot
+2. Admission Chatbot
+
