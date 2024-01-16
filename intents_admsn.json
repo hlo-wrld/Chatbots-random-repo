@@ -1,0 +1,60 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+        "responses": ["Hello", "Good to see you", "Hi there, how can I help?", "Hey! What can I help you with?"],
+        "context_set": ""
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Farewell"],
+        "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.", "Goodbye!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "admission_procedures",
+        "patterns": ["What are the admission procedures?", "How do I apply for admission?", "Tell me about the admission process"],
+        "responses": ["To apply for admission, you need to fill out an application form available on the college website www.abc.com. Ensure you provide all required documents and follow the specified procedures. We also conduct interviews as part of the process."]
+      },
+      {
+        "tag": "admission_requirements",
+        "patterns": ["What are the admission requirements?", "What documents do I need for admission?", "Tell me about admission eligibility"],
+        "responses": ["Admission requirements generally include your high school transcripts, standardized test scores, letters of recommendation, and a personal statement. Check the specific subject requirements on the official website or contact the listed office for detailed information."]
+      },
+      {
+        "tag": "admission_deadlines",
+        "patterns": ["What are the admission deadlines?", "When is the last date to apply for admission?", "Tell me about admission deadlines"],
+        "responses": ["The deadline for filling up the form is exactly 1 month from now. Some departments operate on rolling-basis and might contact you for further interviews before the final deadline. Keep checking the college website for all updates."]
+      },
+      {
+        "tag": "college_life",
+        "patterns": ["What is the college life like?", "Tell me about the college experience", "What can I expect in college?"],
+        "responses": ["College life is a unique experience with opportunities for personal and academic growth. You'll have the chance to explore diverse subjects, engage in extracurricular activities, and build lasting connections. It's a time for self-discovery and learning both inside and outside the classroom."]
+      },
+      {
+        "tag": "admission_status",
+        "patterns": ["How can I check my admission status?", "What is the status of my application?", "When will I know if I got admitted?"],
+        "responses": ["You can check your admission status by logging into the college's admission portal or contacting the admissions office. Admission decisions are typically communicated by a specified date. Make sure to keep an eye on your application status for updates."]
+      },
+      {
+        "tag": "financial_aid",
+        "patterns": ["Tell me about financial aid options", "How can I apply for scholarships?", "What financial assistance is available?"],
+        "responses": ["Financial aid options vary and include scholarships, grants, and student loans. We suggest getting in touch with the financial aid department for finding out which financial aid might suit you best. Be sure to submit any required forms and applications by the specified deadlines to be considered for financial assistance."]
+      },
+      {
+        "tag": "international_admissions",
+        "patterns": ["How can international students apply?", "Tell me about international admissions", "What are the requirements for international applicants?"],
+        "responses": ["International admissions have additional requirements, such as English language proficiency tests (e.g., TOEFL or IELTS) and visa documentation."]
+      },
+      {
+        "tag": "housing",
+        "patterns": ["Tell me about on-campus housing", "How do I apply for student housing?", "What are the accommodation options?"],
+        "responses": ["On-campus housing options are available to select students from the first 2 years of study. You are advised to fill up the housing application as soon as possible, to get your preferred living arrangements. You will be notified well in advance incase your housing application does not get approved. However from the 3rd year of study, all students are provided with on-campus housing."]
+      }
+    ]
+  }

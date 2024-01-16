@@ -1,0 +1,181 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [ "Hi", "How are you", "Is anyone there?", "Hello", "Good day" ],
+          "responses": [ "Hello", "Good to see you", "Hi there, how can I help?","Hey! What can I help you with?" ],
+          "context_set": ""
+      },
+      {
+          "tag": "goodbye",
+          "patterns": [ "Bye", "See you later", "Goodbye", "Farewell"],
+          "responses": [ "See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon.","Goodbye!" ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": [ "Thanks", "Thank you", "That's helpful" ],
+          "responses": [ "Happy to help!", "Any time!", "My pleasure" ]
+      },
+      {
+          "tag": "hours",
+          "patterns": [ "What hours are you open?", "What are your hours?", "When are you open?", "When is the time to contact ?", "At what time do you provide services ?" ],
+          "responses": [ "I am here whenever you need me", "I am always here. Just remember to run the prgram ;) " ]
+      },
+
+      {
+          "tag": "services",
+          "patterns": [ "What are the services that you provide?", "Which services do you provide?", "How can you help us?", "What can you do?" ],
+          "responses": [ "I can tell you about some things about Machine Learning, Deep learning and Data Analysis." ]
+      },
+  
+      {
+          "tag": "Machine Learning",
+          "patterns": [ "What is mean by Machine Learning?", "What is Machine Learning?", "What do you know about Machine Learning?"],
+          "responses": [ "Machine Learning uses a data-driven approach. It is typically trained on historical data and then used to make predictions on new data." ]
+      },
+      {
+          "tag": "Deep Learning",
+          "patterns": [ " What is Deep learning and why is it used?", "what is deep learning?", "what deep learning is used for?" ],
+          "responses": [ "It is a subfield of machine learning that involves neural networks with multiple layers (deep neural networks). Deep learning algorithms can automatically learn hierarchical representations of data." ]
+      },
+      {
+          "tag": "Algorithms",
+          "patterns": [ "What is an Algorithm?", "explain algorithms?", "What is algorithm in machine learning?" ],
+          "responses": [ "Algorithms are a set of rules or procedures for solving a specific problem or class of problems. In the context of machine learning, an algorithm refers to the mathematical models used for learning patterns in data." ]
+      },
+      {
+        "tag": "Supervised Learning",
+        "patterns": [
+          "What is Supervised Learning?",
+          "Explain Supervised Learning?",
+          "How does Supervised Learning work?"
+        ],
+        "responses": [
+          "Supervised Learning is a type of machine learning where the model is trained on a labeled dataset, meaning that the input data has corresponding output labels. The algorithm learns from the training data to make predictions or decisions without explicit programming."
+        ]
+      },
+      {
+        "tag": "Neural Networks",
+        "patterns": [
+          "What are Neural Networks?",
+          "Explain Neural Networks?",
+          "How do Neural Networks work?"
+        ],
+        "responses": [
+          "Neural Networks are a set of algorithms modeled after the structure and function of the human brain. They consist of interconnected nodes (neurons) that process information. Neural Networks are particularly effective in tasks such as pattern recognition, image and speech processing."
+        ]
+      },
+      {
+        "tag": "Data Analysis",
+        "patterns": [
+          "What is Data Analysis?",
+          "Explain Data Analysis?",
+          "How is Data Analysis used?"
+        ],
+        "responses": [
+          "Data Analysis is the process of inspecting, cleaning, transforming, and modeling data to discover useful information, draw conclusions, and support decision-making. It involves techniques from statistics, mathematics, and computer science to analyze and interpret complex datasets."
+        ]
+      },
+      {
+        "tag": "Reinforcement Learning",
+        "patterns": [
+          "What is Reinforcement Learning?",
+          "Explain Reinforcement Learning?",
+          "How does Reinforcement Learning work?"
+        ],
+        "responses": [
+          "Reinforcement Learning is a type of machine learning where an agent learns to make decisions by interacting with an environment. The agent receives feedback in the form of rewards or punishments, and its goal is to maximize the cumulative reward over time."
+        ]
+      },
+      {
+        "tag": "Natural Language Processing",
+        "patterns": [
+          "What is Natural Language Processing?",
+          "Explain Natural Language Processing?",
+          "How is Natural Language Processing used?"
+        ],
+        "responses": [
+          "Natural Language Processing is a field of artificial intelligence that focuses on the interaction between computers and humans using natural language. It involves the development of algorithms and models to enable computers to understand, interpret, and generate human-like text."
+        ]
+      },
+      {
+        "tag": "Unsupervised Learning",
+        "patterns": [
+          "What is Unsupervised Learning?",
+          "Explain Unsupervised Learning?",
+          "How does Unsupervised Learning work?"
+        ],
+        "responses": [
+          "Unsupervised Learning is a type of machine learning where the algorithm is trained on an unlabeled dataset, meaning that the input data does not have corresponding output labels. The algorithm learns patterns and relationships within the data without explicit supervision."
+        ]
+      },
+      {
+        "tag": "Feature Engineering",
+        "patterns": [
+          "What is Feature Engineering?",
+          "Explain Feature Engineering?",
+          "Why is Feature Engineering important?"
+        ],
+        "responses": [
+          "Feature Engineering is the process of selecting, transforming, or creating features (variables) from raw data to improve the performance of machine learning models. It involves extracting relevant information and representing it in a way that enhances the model's ability to learn patterns."
+        ]
+      },
+      {
+        "tag": "Big Data Analytics",
+        "patterns": [
+          "What is Big Data Analytics?",
+          "Explain Big Data Analytics?",
+          "How is Big Data Analytics used?"
+        ],
+        "responses": [
+          "Big Data Analytics involves the analysis of large and complex datasets to extract valuable insights and information. It utilizes advanced analytics techniques, such as machine learning and statistical analysis, to uncover patterns, trends, and correlations within massive amounts of data."
+        ]
+      },
+      {
+        "tag": "Computer Vision",
+        "patterns": [
+          "What is Computer Vision?",
+          "Explain Computer Vision?",
+          "How is Computer Vision used?"
+        ],
+        "responses": [
+          "Computer Vision is a field of artificial intelligence that enables computers to interpret and make decisions based on visual data. It involves the development of algorithms and models for image and video analysis, object recognition, and scene understanding."
+        ]
+      },
+      {
+        "tag": "Clustering",
+        "patterns": [
+          "What is Clustering?",
+          "Explain Clustering?",
+          "How is Clustering used in machine learning?"
+        ],
+        "responses": [
+          "Clustering is a technique in unsupervised learning where similar data points are grouped together based on certain criteria. It involves the partitioning of a dataset into clusters to discover inherent patterns and structures within the data."
+        ]
+      },
+      {
+        "tag": "Predictive Modeling",
+        "patterns": [
+          "What is Predictive Modeling?",
+          "Explain Predictive Modeling?",
+          "How is Predictive Modeling used?"
+        ],
+        "responses": [
+          "Predictive Modeling involves the use of statistical and machine learning models to make predictions about future events or outcomes. It leverages historical data to identify patterns and relationships, allowing for informed decision-making and forecasting."
+        ]
+      },
+      {
+        "tag": "Artificial Intelligence",
+        "patterns": [
+          "What is Artificial Intelligence?",
+          "Explain Artificial Intelligence?",
+          "How is Artificial Intelligence used?"
+        ],
+        "responses": [
+          "Artificial Intelligence is a branch of computer science that aims to create machines capable of intelligent behavior. It involves the development of algorithms, models, and systems that can perform tasks typically requiring human intelligence, such as problem-solving, speech recognition, and decision-making."
+        ]
+      }
+
+
+  ]
+}
